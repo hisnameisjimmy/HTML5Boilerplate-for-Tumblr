@@ -5,8 +5,8 @@ A clean and simple adaptation of the HTML5 Boilerplate 2.0 for Tumblr themeing p
 ## Features
 
 * A single page theme that is 'plug and play'
-* Normalize.css and default H5BP divs/classes dropped into the <style> tags
-* Basic tumblr post classes and blocks defined both within the {Posts} block, as well as within the <style> area
+* Normalize.css and default H5BP divs/classes dropped into the `<style>` tags
+* Basic tumblr post classes and blocks defined both within the `{Posts}` block, as well as within the `<style>` area
 * Google CDN Jquery with Tumblr Static (CDN) Fallback
 * H5BP style Google Analytics built-in with the ID definable within the Tumblr UI
 
