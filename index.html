@@ -1,0 +1,319 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>{Title}{block:TagPage} &bull; Posts Tagged &lsquo;{Tag}&rsquo;{/block:TagPage}{block:PostSummary} &bull; {PostSummary}{/block:PostSummary}</title>
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="apple-touch-icon" href="{PortraitURL-128}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    {block:Description}
+        <meta name="description" content="{MetaDescription}" />
+    {/block:Description}
+    <meta name="author" content="{text:Blog Author}">
+
+    <!-- Tumblr Options -->
+    <meta name="text:Blog Author" content="">
+    <meta name="text:Google Analytics ID" content=""/>
+
+    <!-- Modernizr -->
+    <script src="http://static.tumblr.com/l184zuh/1Sllx93x2/modernizr-2.0.6.min.js"></script>
+
+    <style>
+
+        /* HTML5BOILERPLATE NORMALIZE */
+
+        article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+        audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+        audio:not([controls]) { display: none; }
+        [hidden] { display: none; }
+
+        html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+        body { margin: 0; font-size: 13px; line-height: 1.231; }
+        body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+        ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+        ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+        a { color: #00e; }
+        a:visited { color: #551a8b; }
+        a:hover { color: #06e; }
+        a:focus { outline: thin dotted; }
+        a:hover, a:active { outline: 0; }
+
+        abbr[title] { border-bottom: 1px dotted; }
+        b, strong { font-weight: bold; }
+        blockquote { margin: 1em 40px; }
+        dfn { font-style: italic; }
+        hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+        ins { background: #ff9; color: #000; text-decoration: none; }
+        mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+        pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+        pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+        q { quotes: none; }
+        q:before, q:after { content: ""; content: none; }
+        small { font-size: 85%; }
+        sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+        sup { top: -0.5em; }
+        sub { bottom: -0.25em; }
+        ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+        dd { margin: 0 0 0 40px; }
+        nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+        img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+        svg:not(:root) { overflow: hidden; }
+        figure { margin: 0; }
+
+        form { margin: 0; }
+        fieldset { border: 0; margin: 0; padding: 0; }
+        label { cursor: pointer; }
+        legend { border: 0; *margin-left: -7px; padding: 0; }
+        button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+        button, input { line-height: normal; *overflow: visible; }
+        table button, table input { *overflow: auto; }
+        button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+        input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+        input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+        input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+        button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+        textarea { overflow: auto; vertical-align: top; resize: vertical; }
+        input:valid, textarea:valid {  }
+        input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+        table { border-collapse: collapse; border-spacing: 0; }
+        td { vertical-align: top; }
+
+        /* TUMBLR STYLES */
+
+        .post {}
+
+        .text {}
+        .photo {}
+        .photoset {}
+        .quote {}
+        .link {}
+        .chat {}
+        .video {}
+        .audio {}
+
+        .pages {}
+        .caption {}
+        .source {}
+        .description {}
+        .label {}
+
+        /* 
+           PRIMARY STYLES
+           Author:
+        */
+
+
+
+
+
+        /* HTML5BOILERPLATE NON-SEMANTIC HELPER CLASSES */
+
+        .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+        .ir br { display: none; }
+        .hidden { display: none !important; visibility: hidden; }
+        .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+        .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+        .invisible { visibility: hidden; }
+        .clearfix:before, .clearfix:after { content: ""; display: table; }
+        .clearfix:after { clear: both; }
+        .clearfix { zoom: 1; }
+
+        /* HTML5BOILERPLATE MEDIA QUERY CLASSES */
+
+        @media only screen and (min-width: 480px) {
+
+
+        }
+
+        @media only screen and (min-width: 768px) {
+
+        }
+
+        /* HTML5BOILERPLATE PRINT CLASSES */
+
+        @media print {
+          * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
+          a, a:visited { text-decoration: underline; }
+          a[href]:after { content: " (" attr(href) ")"; }
+          abbr[title]:after { content: " (" attr(title) ")"; }
+          .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
+          pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+          thead { display: table-header-group; }
+          tr, img { page-break-inside: avoid; }
+          img { max-width: 100% !important; }
+          @page { margin: 0.5cm; }
+          p, h2, h3 { orphans: 3; widows: 3; }
+          h2, h3 { page-break-after: avoid; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>{Title}</h1>
+        {block:Description}
+            <p>{Description}</p>
+        {/block:Description}
+
+        {block:HasPages}
+            <nav>
+                <ul class="pages">
+                    {block:Pages}
+                    <li><a href="{URL}">{Label}</a></li>
+                    {/block:Pages}  
+                    <li><a href="/archive">Archive</a></li>
+                </ul>             
+            </nav>
+        {/block:HasPages}
+    </header>
+
+    <div id="main" role="main">
+        {block:Posts}
+            <!-- Text -->
+            {block:Text}
+                <div class="post text">
+                    {block:Title}
+                        <h3><a href="{Permalink}">{Title}</a></h3>
+                    {/block:Title}
+
+                    {Body}
+                </div>
+            {/block:Text}
+
+            <!-- Photo -->
+            {block:Photo}
+                <div class="post photo">
+                    <img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
+
+                    {block:Caption}
+                        <div class="caption">{Caption}</div>
+                    {/block:Caption}
+                </div>
+            {/block:Photo}
+
+            <!-- Photo Set -->
+            {block:Photoset}
+                <div class="post photoset">
+                    {Photoset-500}
+
+                    {block:Caption}
+                        <div class="caption">{Caption}</div>
+                    {/block:Caption}
+                </div>
+            {/block:Photoset}
+
+            <!-- Quote -->
+            {block:Quote}
+                <div class="post quote">
+                    "{Quote}"
+
+                    {block:Source}
+                        <div class="source">{Source}</div>
+                    {/block:Source}
+                </div>
+            {/block:Quote}
+
+            <!-- Link -->
+            {block:Link}
+                <div class="post link">
+                    <a href="{URL}" class="link" {Target}>{Name}</a>
+
+                    {block:Description}
+                        <div class="description">{Description}</div>
+                    {/block:Description}
+                </div>
+            {/block:Link}
+
+            <!-- Chat -->
+            {block:Chat}
+                <div class="post chat">
+                    {block:Title}
+                        <h3><a href="{Permalink}">{Title}</a></h3>
+                    {/block:Title}
+
+                        {block:Lines}
+                            <li class="{Alt} user_{UserNumber}">
+                                {block:Label}
+                                    <span class="label">{Label}</span>
+                                {/block:Label}
+
+                                {Line}
+                            </li>
+                        {/block:Lines}
+                </div>
+            {/block:Chat}
+
+            <!-- Video -->
+            {block:Video}
+                <div class="post video">
+                    {Video-500}
+
+                    {block:Caption}
+                        <div class="caption">{Caption}</div>
+                    {/block:Caption}
+                </div>
+            {/block:Video}
+
+            <!-- Audio -->
+            {block:Audio}
+                <div class="post audio">
+                    {AudioPlayerBlack}
+
+                    {block:Caption}
+                        <div class="caption">{Caption}</div>
+                    {/block:Caption}
+                </div>
+            {/block:Audio}
+        {/block:Posts}
+
+        {block:PermalinkPage}
+            {block:NoteCount}
+            {/block:NoteCount}
+            {PostNotes}
+        {/block:PermalinkPage}
+    </div>
+
+    <footer>
+        {block:PreviousPage}
+            <a href="{PreviousPage}">&#171; Previous</a>
+        {/block:PreviousPage}
+
+        {block:NextPage}
+            <a href="{NextPage}">Next &#187;</a>
+        {/block:NextPage}
+
+        <a href="/archive">Archive</a>
+    </footer>
+
+    <!-- Google CDN Jquery with Tumblr Static Fallback -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="http://static.tumblr.com/l184zuh/M30lxehxp/jquery-1.7.1.min.js"><\/script>')</script>
+
+    <!-- Other Javascript -->
+
+    <!-- Google Analytics -->
+    {block:IfGoogleAnalyticsWebPropertyID}
+      <script>
+        window._gaq = [['_setAccount','{text:Google Analytics ID}'],['_trackPageview'],['_trackPageLoadTime']];
+        Modernizr.load({
+          load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+        });
+      </script>
+    {block:IfGoogleAnalyticsWebPropertyID}
+
+      <!--[if lt IE 7 ]>
+        <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+        <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+      <![endif]-->
+
+    </body>
+</html>
