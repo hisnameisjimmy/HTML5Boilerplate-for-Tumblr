@@ -1,6 +1,6 @@
-# HTML5 Boilerplate for Tumblr Themeing
+# HTML5 Boilerplate for Tumblr Theming
 
-A clean and simple adaptation of the HTML5 Boilerplate 2.0 for Tumblr themeing purposes. The goal was to keep it just as simple as the original, but within the context of a Tumblr theme foundation. That means it doesn't include the stuff that wouldn't really apply to a tumblr theme. If you are familiar working with the HTML5 Boilerplate, you should feel right at home with this.
+A clean and simple adaptation of the HTML5 Boilerplate 2.0 for Tumblr theming purposes. The goal was to keep it just as simple as the original, but within the context of a Tumblr theme foundation. That means it doesn't include the stuff that wouldn't really apply to a tumblr theme. If you are familiar working with the HTML5 Boilerplate, you should feel right at home with this.
 
 ## Features
 
@@ -16,7 +16,7 @@ A lot, honestly pretty much everything that makes HTML5 Boilerplate really hardc
 
 ## Contributing
 
-I'm honestly kind of a newb to the tumblr themeing arena, so I welcome all contributions from those more talented than myself. This was really a selfish project to get myself started on a theme.  I was so used to starting with HTML5 Boilerplate for other projects, that I wanted the same baseline for some stuff I want to do with Tumblr.
+I'm honestly kind of a newb to the tumblr theming arena, so I welcome all contributions from those more talented than myself. This was really a selfish project to get myself started on a theme.  I was so used to starting with HTML5 Boilerplate for other projects, that I wanted the same baseline for some stuff I want to do with Tumblr.
 
 ## But people have already done this
 

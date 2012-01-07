@@ -89,6 +89,7 @@
         /* TUMBLR STYLES */
 
         .post {}
+        .pages {}
 
         .text {}
         .photo {}
@@ -99,11 +100,16 @@
         .video {}
         .audio {}
 
-        .pages {}
+        /* Minor Styles */
         .caption {}
         .source {}
         .description {}
         .label {}
+
+        /* Chat */
+        .chat
+        .odd
+        .even
 
         /* 
            PRIMARY STYLES
@@ -240,6 +246,7 @@
                         <h3><a href="{Permalink}">{Title}</a></h3>
                     {/block:Title}
 
+                    <ul class="chat">
                         {block:Lines}
                             <li class="{Alt} user_{UserNumber}">
                                 {block:Label}
@@ -249,6 +256,7 @@
                                 {Line}
                             </li>
                         {/block:Lines}
+                    </a>
                 </div>
             {/block:Chat}
 
