@@ -268,7 +268,7 @@
                 <div class="post audio">
                     {AudioPlayerBlack}
 
-                    {block:Caption}
+                {block:Caption}
                         <div class="caption">{Caption}</div>
                     {/block:Caption}
                 </div>
@@ -301,19 +301,19 @@
     <!-- Other Javascript -->
 
     <!-- Google Analytics -->
-    {block:IfGoogleAnalyticsWebPropertyID}
+    {block:IfGoogleAnalyticsID}
       <script>
         window._gaq = [['_setAccount','{text:Google Analytics ID}'],['_trackPageview'],['_trackPageLoadTime']];
         Modernizr.load({
           load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
         });
       </script>
-    {block:IfGoogleAnalyticsWebPropertyID}
+    {block:IfGoogleAnalyticsID}
 
-      <!--[if lt IE 7 ]>
+    <!--[if lt IE 7 ]>
         <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
         <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-      <![endif]-->
+    <![endif]-->
 
     </body>
 </html>
