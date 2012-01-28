@@ -96,7 +96,6 @@
         .photoset {}
         .quote {}
         .link {}
-        .chat {}
         .video {}
         .audio {}
 
@@ -184,8 +183,9 @@
 
     <div id="main" role="main">
         {block:Posts}
-            <!-- Text -->
+            
             {block:Text}
+            <!-- Text -->
                 <div class="post text">
                     {block:Title}
                         <h3><a href="{Permalink}">{Title}</a></h3>
@@ -195,8 +195,8 @@
                 </div>
             {/block:Text}
 
-            <!-- Photo -->
             {block:Photo}
+            <!-- Photo -->
                 <div class="post photo">
                     <img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
 
@@ -206,8 +206,8 @@
                 </div>
             {/block:Photo}
 
-            <!-- Photo Set -->
             {block:Photoset}
+            <!-- Photo Set -->
                 <div class="post photoset">
                     {Photoset-500}
 
@@ -217,8 +217,8 @@
                 </div>
             {/block:Photoset}
 
-            <!-- Quote -->
             {block:Quote}
+            <!-- Quote -->
                 <div class="post quote">
                     "{Quote}"
 
@@ -228,8 +228,8 @@
                 </div>
             {/block:Quote}
 
-            <!-- Link -->
             {block:Link}
+            <!-- Link -->
                 <div class="post link">
                     <a href="{URL}" class="link" {Target}>{Name}</a>
 
@@ -239,8 +239,8 @@
                 </div>
             {/block:Link}
 
-            <!-- Chat -->
             {block:Chat}
+            <!-- Chat -->
                 <div class="post chat">
                     {block:Title}
                         <h3><a href="{Permalink}">{Title}</a></h3>
@@ -260,8 +260,8 @@
                 </div>
             {/block:Chat}
 
-            <!-- Video -->
             {block:Video}
+            <!-- Video -->
                 <div class="post video">
                     {Video-500}
 
@@ -271,8 +271,8 @@
                 </div>
             {/block:Video}
 
-            <!-- Audio -->
             {block:Audio}
+            <!-- Audio -->
                 <div class="post audio">
                     {AudioPlayerBlack}
 
