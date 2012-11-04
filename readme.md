@@ -1,6 +1,6 @@
 # HTML5 Boilerplate for Tumblr Theming
 
-A clean and simple adaptation of the HTML5 Boilerplate 2.0 for Tumblr theming purposes. The goal was to keep it just as simple as the original, but within the context of a Tumblr theme foundation. That means it doesn't include the stuff that wouldn't really apply to a tumblr theme. If you are familiar working with the HTML5 Boilerplate, you should feel right at home with this.
+A clean and simple adaptation of the HTML5 Boilerplate 4.0.1 for Tumblr theming purposes. The goal was to keep it just as simple as the original, but within the context of a Tumblr theme foundation. That means it doesn't include the stuff that wouldn't really apply to a tumblr theme. If you are familiar working with the HTML5 Boilerplate, you should feel right at home with this.
 
 ## Features
 
