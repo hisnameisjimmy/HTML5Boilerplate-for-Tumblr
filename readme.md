@@ -1,6 +1,6 @@
 # HTML5 Boilerplate for Tumblr Theming
 
-A clean and simple adaptation of the HTML5 Boilerplate 4.0.1 for Tumblr theming purposes. The goal was to keep it just as simple as the original, but within the context of a Tumblr theme foundation. That means it doesn't include the stuff that wouldn't really apply to a tumblr theme. If you are familiar working with the HTML5 Boilerplate, you should feel right at home with this.
+A clean and simple adaptation of HTML5 Boilerplate 4.3.0 for Tumblr theming purposes. The goal was to keep it just as simple as the original, but within the context of a Tumblr theme foundation. That means it doesn't include the stuff that wouldn't really apply to a tumblr theme. If you are familiar working with HTML5 Boilerplate, you should feel right at home with this.
 
 ## Features
 
@@ -12,7 +12,7 @@ A clean and simple adaptation of the HTML5 Boilerplate 4.0.1 for Tumblr theming 
 
 ## What it doesn't include
 
-A lot, honestly pretty much everything that makes HTML5 Boilerplate really hardcore isn't in this by design.  The unit testing, local libraries, img folder, css folder, crossdomain.xml, .htaccess., and build scripts are all pretty much irrelevant within a tumblr theme.  However, it could easily be argued, depending on how complex your theme is, that these are necessary. In that case I highly recommend you download the entire H5BP and use it alongside my adaptation: [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
+A lot, honestly pretty much everything that makes HTML5 Boilerplate really hardcore isn't in this by design.  The unit testing, local libraries, img folder, css folder, crossdomain.xml, .htaccess., and build scripts are all pretty much irrelevant within a tumblr theme.  I've stripped out a lot of commenting, so if you haven't already, I highly recommend you check out the OG: [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
 
 ## Contributing
 
